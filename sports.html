@@ -1,42 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="./styles/sports.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://unpkg.com/scrollreveal"></script>
+		<title>Sphurti 2023</title>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sphurti 2023</title>
-</head>
+	<body>
+		<!-- PRIMARY NAVBAR -->
 
-<body>
+		<nav class="SportsPrimary_navigation">
+			<div class="container">
+				<div class="sportsHeading">
+					<p>SPORTS</p>
+				</div>
+				<div class="menu">
+					<a href="index.html">Home</a>
+					<a href="#" class="is-active">Sports</a>
+					<a href="#" target="_blank">Register</a>
+					<a href="guidelines.html">Guidelines</a>
+					<a href="contact.html">Contact Team</a>
+				</div>
 
-    <!-- PRIMARY NAVBAR -->
+				<button class="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+		</nav>
 
-    <nav class="primary_navigation">
-        <div class="container">
-            <div class="menu">
-                <a href="index.html">Home</a>
-                <a href="#" class="is-active">Sports</a>
-                <a href="#" target="_blank">Register</a>
-                <a href="guidelines.html">Guidelines</a>
-                <a href="contact.html">Contact Team</a>
+		<!-- MAIN BODY -->
+		<!-- sports page -->
+		<section class="SportsPage">
+			<span class="overlay"></span>
+			<div class="modalBoxC">
+				<div class="modal-box"></div>
+				<button class="close-btn boxClose">Close</button>
+			</div>
+			<div class="sportsSectionBg"></div>
+			<div class="boxEmpty1">
+				<img src="./assets/boxEmpty.png" alt="" />
+			</div>
+			<div class="boxEmpty2">
+				<img src="./assets/boxEmpty.png" alt="" />
+			</div>
+			<div class="boxFull">
+				<img src="./assets/boxFull.png" alt="" />
+			</div>
+			<div class="sportsSection">
+				<div class="sportsContent">
+					<div class="sportsCard football">
+						<img src="./assets/ftbl.png" alt="Football" />
+						<button class="sportsName">Football</button>
+					</div>
 
-            </div>
-    
-            <button class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </nav>
+					<div class="sportsCard cricket">
+						<img src="./assets/crckt.png" alt="Cricket" />
+						<button class="sportsName">Cricket</button>
+					</div>
+					<div class="sportsCard volleyball">
+						<img src="./assets/vlbl.png" alt="Volleyball" />
+						<button class="sportsName">Volleyball</button>
+					</div>
+					<div class="sportsCard basketball">
+						<img src="./assets/bsktbl.png" alt="Basketball" />
+						<button class="sportsName">Basketball</button>
+					</div>
+					<div class="sportsCard tableTennis">
+						<img src="./assets/tbltns.jpg" alt="Table Tennis" />
+						<button class="sportsName">Table Tennis</button>
+					</div>
+					<div class="sportsCard badminton">
+						<img src="./assets/bdmnt.png" alt="Badminton" />
+						<button class="sportsName">Badminton</button>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <!-- MAIN BODY -->
-
-
-    <!-- INSERT JS HERE -->
-    <script src="index.js"></script>
-</body>
-
+		<!-- INSERT JS HERE -->
+		<script src="./js/sports.js"></script>
+		<script src="index.js"></script>
+	</body>
 </html>
+
+<!-- <span class="overlay"></span>
+<div class="modal-box">
+	<i class="fa-regular fa-circle-check"></i>
+	<h3>Completed</h3>
+	<p>You have sucessfully downloaded all the source code files.</p>
+	<div class="buttons">
+		<button class="close-btn">OK, Close</button>
+		<button>Open File</button>
+	</div>
+</div> -->
